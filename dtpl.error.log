@@ -1,0 +1,22 @@
+Error: ENOENT: no such file or directory, stat '/Users/yufu/Desktop/project/pc28/database.sqlite-journal'
+    at statSync (node:fs:1617:3)
+    at Object.t.statSync (node:electron/js2c/asar_bundle:2:4557)
+    at Object.statSync (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/graceful-fs/polyfills.js:308:16)
+    at /Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/out/core/Application.js:94:48
+    at Array.forEach (<anonymous>)
+    at Application.<anonymous> (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/out/core/Application.js:91:34)
+    at step (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:114:57)
+    at /Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:103:16)
+    at run (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/out/core/Application.js:84:48)
+    at Application.<anonymous> (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/out/core/Application.js:153:50)
+    at step (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:114:57)
+    at /Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/node_modules/tslib/tslib.js:103:16)
+    at Timeout._onTimeout (/Users/yufu/.vscode/extensions/qiu8310.dot-template-vscode-0.4.0/node_modules/dot-template-core/out/core/Application.js:144:59)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
